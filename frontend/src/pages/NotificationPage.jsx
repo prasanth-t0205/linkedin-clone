@@ -127,7 +127,7 @@ const NotificationPage = () => {
               {notifications.data.map((notification) => (
                 <li
                   key={notification._id}
-                  className={`bg-white border rounded-lg p-4 transition-all hover:shadow-md ${
+                  className={`bg-white border rounded-lg p-4 transition-all my-4 hover:shadow-md ${
                     !notification.read ? "bg-blue-500" : "border-gray-200"
                   }`}
                 >
